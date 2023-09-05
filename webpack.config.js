@@ -7,8 +7,15 @@ module.exports = {
 
   // O ponto de entrada da aplicação
   entry: {
-    index: path.resolve(__dirname, 'src/views', 'filme-listagem', 'filme-listagem.ts'),
-    detalhes: path.resolve(__dirname, "src/views", "filme-detalhes","filme-detalhes.ts"),  
+    index: path.resolve(
+      __dirname, 'src/views', 
+     'filme-listagem',
+     'filme-listagem.ts'),
+    detalhes: path.resolve(
+      __dirname, 
+      "src/views",
+     "filme-detalhes",
+     "filme-detalhes.ts"),  
   },
  
   // Configuração de output do build

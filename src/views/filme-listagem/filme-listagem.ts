@@ -1,1 +1,1 @@
-import './filme-listagem.css'
+import "./filme-listagem.css";

@@ -1,3 +1,5 @@
+import "./filme-detalhes.css"
+
 export class DetalhesFilme{
 
 }

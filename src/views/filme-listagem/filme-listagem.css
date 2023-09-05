@@ -1,0 +1,7 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap-icons/font/bootstrap-icons.min.css");
+
+body {
+  background: rgb(231,231,231);
+  background: linear-gradient(90deg, rgba(231,231,231,1) 0%, rgba(0,0,0,1) 21%, rgba(51,7,88,1) 46%, rgba(0,0,0,0.9598214285714286) 76%, rgba(231,231,231,1) 100%);
+}

@@ -7,9 +7,10 @@ module.exports = {
 
   // O ponto de entrada da aplicação
   entry: {
-    index: path.resolve(__dirname, 'src/views', 'index.ts')
+    index: path.resolve(__dirname, 'src/views', 'filme-listagem', 'filme-listagem.ts'),
+    detalhes: path.resolve(__dirname, "src/views", "filme-detalhes","filme-detalhes.ts"),  
   },
-
+ 
   // Configuração de output do build
   output: {
     filename: '[name].bundle.js',
@@ -42,8 +43,22 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: path.resolve(__dirname, 'src/views', 'index.html'),
-      chunks: ['index']
+      template: path.resolve(
+        __dirname,
+         'src/views',
+       'filme-listagem',
+       'filme-listagem.html'),
+      chunks: ['index.html']
+    }),
+    new HtmlWebpackPlugin({
+      filename: "detalhes.html",
+      template: path.resolve(
+        __dirname,
+        "src/views",
+        "filme-detalhes",
+        "filme-detalhes.html"
+      ),
+      chunks: ["detalhes"],
     }),
 
     new CopyWebpackPlugin({

@@ -2,6 +2,6 @@
 @import url("bootstrap-icons/font/bootstrap-icons.min.css");
 
 body{
-  background: rgb(231,231,231);
-  background: linear-gradient(90deg, rgba(231,231,231,1) 0%, rgba(0,0,0,1) 21%, rgba(51,7,88,1) 46%, rgba(0,0,0,0.9598214285714286) 76%, rgba(231,231,231,1) 100%);
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(100,0,173,1) 25%, rgba(44,12,51,1) 50%, rgba(74,0,173,1) 75%, rgba(0,0,0,1) 90%, rgba(0,0,0,1) 100%);
 }

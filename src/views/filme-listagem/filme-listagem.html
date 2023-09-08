@@ -1,95 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>Filmes apmdb</title> 
- 
-  <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
-</head>
-<body class="bg-dark">
-  <nav class="navbar">  
-    <div class="container">
-      <a href="" class="navbar-brand text-light fs-2 fw-bold">Apmdb</a>
-      <button class="btn btn-outline-light">Pagina Inicial</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Início - APMDb</title>
+    <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon" />
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand text-light fs-4 fw-bold" href="#">APMDb</a>
+      </div>
+    </nav>
+    <div class="container d-grid gap-3">
+      <div class="row gap-3">
+        <h1 id="lblEmAlta" class="col fw-semibold text-warning" role="button">Filmes em Alta</h1>
+        <h1 id="lblFavoritos" class="col fw-semibold text-warning" role="button">Filmes Favoritos</h1>
+      </div>
+
+      <div id="pnlFilmes" class="row g-3">
+      </div>
     </div>
-  </nav> 
-  <main>
-     <div class="container mt-3">
-      <h1 class="fs-2 fw-bold text-light">Filmes em Alta</h1>
-      <div class="row">
-      <div class="col-6 col-md-4 col-lg-2">
-          <div class="d-grid gap-2 text-center text-center">
-            <img
-              src="https://image.tmdb.org/t/p/original/8tBhAn6qVRQzf5yvEcxjgPMgTkw.jpg"
-              class="img-fluid rounded-3 p-2 pb-0">
-              <a href="" class="fs-5 link-light fw-bold text-decoration-none">Megatubarão 2</a>
-          </div>
-      </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="d-grid gap-2 text-center text-center">
-          <img
-            src="https://image.tmdb.org/t/p/original/9EnfMH0nTPCna87Mh3G8Q6W2wze.jpg"
-            class="img-fluid rounded-3 p-2 pb-0">
-            <a href="" class="fs-5 link-light fw-bold text-decoration-none">Indiana Jones e A Relíquia do Destino</a>
-        </div>
-      </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="d-grid gap-2 text-center text-center">
-          <img
-            src="https://image.tmdb.org/t/p/original/cfXO8gMTz484ItS0AANhGS4v4b5.jpg"
-            class="img-fluid rounded-3 p-2 pb-0">
-            <a href="" class="fs-5 link-light fw-bold text-decoration-none">Elementos</a>
-        </div>
-      </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="d-grid gap-2 text-center text-center">
-          <img
-            src="https://image.tmdb.org/t/p/original/yRRuLt7sMBEQkHsd1S3KaaofZn7.jpg"
-            class="img-fluid rounded-3 p-2 pb-0">
-            <a href="" class="fs-5 link-light fw-bold text-decoration-none">Barbie</a>
-        </div>
-      </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="d-grid gap-2 text-center text-center">
-          <img
-            src="https://image.tmdb.org/t/p/original/9EpaPaKozP2b8L1hJekBFI75gCm.jpg"
-            class="img-fluid rounded-3 p-2 pb-0">
-            <a href="" class="fs-5 link-light fw-bold text-decoration-none">Agente Stone</a>
-        </div>
-      </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="d-grid gap-2 text-center text-center">
-          <img
-            src="https://image.tmdb.org/t/p/original/4CwKj1fw33BXYzxvrpM3GlAhK4L.jpg"
-            class="img-fluid rounded-3 p-2 pb-0">
-            <a href="" class="fs-5 link-light fw-bold text-decoration-none">Homem-Aranha: Através do Aranhaverso</a>
-        </div>
-      </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="d-grid gap-2 text-center text-center">
-          <img
-            src="https://image.tmdb.org/t/p/original/pZaFdrYekwC9ITq4yWrkqEwCy3E.jpg"
-            class="img-fluid rounded-3 p-2 pb-0">
-            <a href="" class="fs-5 link-light fw-bold text-decoration-none">Drácula: A Última Viagem do Deméter</a>
-        </div>
-      </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="d-grid gap-2 text-center text-center">
-          <img
-            src="https://image.tmdb.org/t/p/original/2BWhcrlPr6UvSJy5D044Ikq2QxH.jpg"
-            class="img-fluid rounded-3 p-2 pb-0">
-            <a href="" class="fs-5 link-light fw-bold text-decoration-none">Som da Liberdade</a>
-        </div>
-      </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="d-grid gap-2 text-center text-center">
-          <img
-            src="https://image.tmdb.org/t/p/original/itYONYDHpJqTuu8BCXAtHxgpglq.jpg"
-            class="img-fluid rounded-3 p-2 pb-0">
-            <a href="" class="fs-5 link-light fw-bold text-decoration-none">The Flash</a>
-        </div>  
-     </div>
-  </main>
-</body>
+  </body>
 </html>

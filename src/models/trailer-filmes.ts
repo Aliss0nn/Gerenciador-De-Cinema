@@ -1,4 +1,3 @@
-export class TrailerFilme{
-  id: number;
-  sourceUrl: string;
+export type TrailerFilme = {
+  urlTrailer: string
 }
